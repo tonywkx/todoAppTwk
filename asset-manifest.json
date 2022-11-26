@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todoAppTwk/static/css/main.1c4841cf.css",
+    "main.js": "/todoAppTwk/static/js/main.dcf1b282.js",
+    "index.html": "/todoAppTwk/index.html",
+    "main.1c4841cf.css.map": "/todoAppTwk/static/css/main.1c4841cf.css.map",
+    "main.dcf1b282.js.map": "/todoAppTwk/static/js/main.dcf1b282.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c4841cf.css",
+    "static/js/main.dcf1b282.js"
+  ]
+}
