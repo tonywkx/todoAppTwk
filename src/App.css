@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* common styles start */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.App {
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: #e1f6f2;
+}
+.title h1 {
+  color: #0f3460;
+  text-align: center;
+  margin: 30px 0;
+  font-weight: 800;
+}
+/* common styles end */
+/* addForm styles start */
+form {
+  max-width: 550px;
+  margin: 0 auto;
+  background: #b7eff9;
+  padding: 20px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px #b7eff9;
+  color: #0f3460;
+}
+form h3 {
+  text-align: center;
+}
+form input {
+  width: 100%;
+  padding: 10px 5px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #0f3460;
+}
+.input-container {
+  margin-right: 20px;
+}
+.btn-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.btn-container button {
+  background: #5ab560;
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border: 1px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.btn-container button:hover {
+  background: #218f28;
+}
+/* addForm styles end */
+/* todoItem styles start */
+.todo-wrapper {
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0fcff;
+  box-shadow: 2px 2px 12px #b7eff9;
+}
+.todo {
+  width: 85%;
+  height: 100%;
+  background: transparent;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 2px 12px #b7eff9;
+  color: #0f3460;
+}
+.list-text {
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 28px;
+  font-weight: 500;
+  word-wrap: normal;
+  margin-bottom: 10px;
+  color: #0f3460;
+}
+.list {
+  text-align: center;
+  width: 50%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #0f3460;
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75%;
+  justify-content: space-between;
+}
+.button-complete,
+.button-delete {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.button-complete:hover,
+.button-delete:hover {
+  background-color: #afb0af;
+}
+#i {
+  font-size: 35px;
+}
+.button-complete {
+  color: #83f492;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.button-delete {
+  color: #f95538;
+  margin-right: 10px;
+}
+@media screen and (max-width: 747px) {
+  .task-container {
+    width: 90%;
+  }
+  .task {
+    margin-right: 0px;
+  }
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+.file-container {
+  margin: 10px 10px;
+  color: #0f3460;
+}
+.date {
+  background-color: aquamarine;
+  padding: 5px;
+}
+.passed {
+  background-color: #aa3636;
+  color: #ddd;
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+  font-weight: 700;
+}
+.passed:hover {
+  background-color: #e76b6b;
+}
+/* todoItem styles end */
+/*# sourceMappingURL=App.css.map */
